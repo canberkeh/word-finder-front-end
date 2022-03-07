@@ -53,7 +53,7 @@ submit.onclick = function () {
     body: raw,
     redirect: 'follow'
   };
-  fetch("http://word-finder-get-words.herokuapp.com/word_finder/get_words", requestOptions)
+  fetch("https://word-finder-get-words.herokuapp.com/word_finder/get_words", requestOptions)
     .then(response => response.text())
     .then(data => {
       const result = JSON.parse(data).result;
