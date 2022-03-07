@@ -30,7 +30,7 @@ submit.onclick = function () {
   let exclude = document.getElementById('exclude').value.toUpperCase();
   let include = document.getElementById('include').value.toUpperCase();
   const excludeArray = Array.from(new Set(exclude.replace(/[^A-Za-z ]/g, '').split('')));
-  const includeArray = Array.from(new Set((include).replace(/[^A-Za-z ]/g, '').split('')));
+  const includeArray = Array.from(new Set(include.replace(/[^A-Za-z ]/g, '').split('')));
 
   const wordArray = document.getElementsByClassName('word-textbox')
 
