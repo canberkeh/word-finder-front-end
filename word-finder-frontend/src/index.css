@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
+}
+
+p {
+  font-size: 16px;
+}
+
+.margin {
+  margin-bottom: 45px;
+}
+
+.bg-2 {
+  background-color: #1abc9c;
+  /* Green */
+  color: #555555;
+}
+
+.bg-3 {
+  background-color: #474e5d;
+  /* Dark Blue */
+  color: #fff;
+}
+
+.bg-4 {
+  background-color: #2f2f2f;
+  /* Black Gray */
+  color: #fff;
+}
+
+.container-fluid {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.navbar {
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 10px;
+}
+
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:gray ;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+#exclude, #include{
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border-color: #2ea3dd;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  font-weight : bold ;
+  text-transform: uppercase;
+}
+
+#length{
+  width: 50px;
+  height: 40px;
+  border-radius: 10px;
+  border-color: #2ea3dd;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  font-weight : bold ;
+}
+
+#exclude-label, #include-label, #length-label{
+  font-weight : bold ;
+}
+
+.word-textbox{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 25px;
+  border-color: #2ea3dd;
+  font-weight : bold ;
+  text-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+#submit{
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  background: #ffffff;
+  width: 100px;
+  height: 50px;
+  font-weight : bold ;
+}
+
+#generate{
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  background: #2ea3dd;
+  width: 100px;
+  height: 50px;
+  font-weight : bold ;
+}
+
