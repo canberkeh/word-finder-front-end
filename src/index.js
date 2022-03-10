@@ -39,6 +39,10 @@ submit.onclick = function () {
   for (var i = 0; i < wordArray.length; i++) {
     wordResult += wordArray[i].value == "" ? ' ' : wordArray[i].value;
   }
+  
+  if(length == 0 || ""){
+    length = 0
+  }
 
   var raw = JSON.stringify({
     "include": includeArray,
@@ -47,7 +51,7 @@ submit.onclick = function () {
     "word": wordResult,
     "language": "tr"
   });
-
+  console.log(raw)
   var requestOptions = {
     method: 'POST',
     headers: myHeaders,
