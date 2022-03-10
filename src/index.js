@@ -51,7 +51,7 @@ submit.onclick = function () {
     "word": wordResult,
     "language": "tr"
   });
-  console.log(raw)
+
   var requestOptions = {
     method: 'POST',
     headers: myHeaders,
